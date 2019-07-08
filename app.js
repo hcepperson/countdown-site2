@@ -1,6 +1,6 @@
 window.addEventListener("load", ()=> {
     var today = new Date().getTime();
-    var deadline = new Date("Jul 4, 2019 00:00:00").getTime();
+    var deadline = new Date("Jul 4, 2020 00:00:00").getTime();
     var timeUntil = deadline - today;
 
     let msPerDay = 1000 * 60 * 60 * 24;
